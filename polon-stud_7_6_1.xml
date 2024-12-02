@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:plikImp xmlns:doktorant="urn:polon:imp:element:doktorant:7_6_1" xmlns:c="urn:polon:imp:wspolne:wspolne:7_6_1" xmlns:o="urn:polon:imp:element:osoba:7_6_1" xmlns:ns0="urn:polon:plikImp:7_6_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:polon:plikImp:7_6_1 plikImp.xsd">
+	<studenci>
+		<student>
+			<!--Aktualizacja danych studenta zarejestrowanego w Systemie przed 1.10.2019, który ukończył studia -->
+			<!--Obywatel polski studiujący przed dostosowaniem kierunku do wymogów Ustawy z dnia 20 lipca 2018r.Prawo o szkolnictwie wyższym i nauce-->
+			<!--Semestry sprzed 1.10.2019 rozliczane są na starych zasadach, semestry po 1.10.2019 rozliczane wg scenariusza z kontynuacją -->
+			<!--Dane studenta-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1990</rokUrodzenia>
+				<pesel>90020724286</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<kierunekId>23314</kierunekId>
+					<formaStudiow>Niestacjonarne</formaStudiow>
+					<dataRozpoczecia>2016-10-01</dataRozpoczecia>
+					<uzyskanyTytul>MGR</uzyskanyTytul>
+					<dataUkonczeniaStudiow>2019-11-02</dataUkonczeniaStudiow>
+					<numerDyplomu>dypl 3</numerDyplomu>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!-- 4 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2018</rokAkademicki>
+							<semestrNr>2</semestrNr>
+							<semestrStudenta>4</semestrStudenta>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>120</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+						</ects>
+					</semestr>
+				</semestry>
+				<pomocMat>
+					<!--Pomoc materialna studenta-->
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS01</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>1</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>6</mcDo>
+					</pm>
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS05</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>2</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>2</mcDo>
+					</pm>
+				</pomocMat>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Aktualizacja danych studenta zarejestrowanego w Systemie przed 1.10.2019, który kontunuuje studia w roku akadem 2019/2020-->
+			<!--Semestry sprzed 1.10.2019 rozliczane są na starych zasadach, semestry po 1.10.2019 rozliczane wg scenariusza z kontynuacją -->
+			<!--Rozliczenie semestrów, zrealizowanych przed rokiem akademickim 2019/2020 -->
+			<!--Obywatel polski studiujący przed dostosowaniem kierunku do wymogów Ustawy z dnia 20 lipca 2018r.Prawo o szkolnictwie wyższym i nauce-->
+			<!--Dane studenta-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1990</rokUrodzenia>
+				<pesel>90020724286</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<kierunekId>23314</kierunekId>
+					<formaStudiow>Niestacjonarne</formaStudiow>
+					<dataRozpoczecia>2016-10-01</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!-- 1 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2018</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>1</semestrStudenta>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>30</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+						</ects>
+					</semestr>
+					<semestr>
+						<!-- 2 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2018</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>1</semestrStudenta>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>60</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+						</ects>
+					</semestr>
+				</semestry>
+				<pomocMat>
+				<!--Pomoc materialna studenta-->
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS01</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>1</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>6</mcDo>
+					</pm>
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS05</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>2</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>2</mcDo>
+					</pm>
+				</pomocMat>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!-- Obywatel polski studiujący na kierunku przed dostosowaniem kierunku do wymogów -->
+			<!-- Ustawy z dnia 20lipca 2018r.Prawo o szkolnictwie wyższym inauce -->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1990</rokUrodzenia>
+				<pesel>90020724286</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<kierunekId>29181</kierunekId>
+					<formaStudiow>Niestacjonarne</formaStudiow>
+					<dataRozpoczecia>2015-10-01</dataRozpoczecia>
+					<uzyskanyTytul>INZ</uzyskanyTytul>
+					<dataUkonczeniaStudiow>2019-11-02</dataUkonczeniaStudiow>
+					<numerDyplomu>dypl 3</numerDyplomu>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+				</studia>
+				<semestry>
+					<semestr>
+						<daneSemestru>
+							<rokAkademicki>2014</rokAkademicki>
+							<semestrNr>2</semestrNr>
+							<semestrStudenta>2</semestrStudenta>
+						</daneSemestru>
+						<ects>
+							<ectsUzyskane>30</ectsUzyskane>
+							<ectsEfektyUczenia>50</ectsEfektyUczenia>
+						</ects>
+					</semestr>
+				</semestry>
+				<pomocMat>
+					<pm>
+						<typPm>STS01</typPm>
+						<rokOd>2012</rokOd>
+						<mcOd>1</mcOd>
+						<rokDo>2012</rokDo>
+						<mcDo>12</mcDo>
+					</pm>
+					<pm>
+						<typPm>STS05</typPm>
+						<rokOd>2012</rokOd>
+						<mcOd>2</mcOd>
+						<rokDo>2012</rokDo>
+						<mcDo>2</mcDo>
+					</pm>
+				</pomocMat>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!--Obywatel polski studiujący na kierunki, poziomie, profilu-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1990</rokUrodzenia>
+				<pesel>90020724286</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<!--Studia studenta (studia na kierunku, poziomie i profilu)-->
+					<dataRozpoczecia>2019-10-01</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+					<uruchomienieKod>6716</uruchomienieKod>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!--1 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>1</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>30</ectsUzyskane>
+							<ectsEfektyUczenia>20</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>20</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+				</semestry>
+				<pomocMat>
+					<!--Pomoc materialna studenta-->
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS08</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>10</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>12</mcDo>
+					</pm>
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS05</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>10</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>10</mcDo>
+					</pm>
+				</pomocMat>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!--Cudzoziemiec na studiach na kierunku, poziomie i profilu z podstawą przyjęcia i kształcenia oraz z podstawą zwolnienia z opłat-->
+			<osoba>
+				<!--Dane osobowe studenta (cudzoziemca)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<prefixNazwiska>von</prefixNazwiska>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>T</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1984</rokUrodzenia>
+				<dokTozsamRodzaj>PS</dokTozsamRodzaj>
+				<dokTozsamNumer>RO 84110898340</dokTozsamNumer>
+				<dokTozsamKrajKod>RO</dokTozsamKrajKod>
+				<obywatelstwo>GQ</obywatelstwo>
+				<panstwoUrodzenia>RO</panstwoUrodzenia>
+				<kartaPolaka>N</kartaPolaka>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<!--Studia studenta (studia na kierunku, poziomie i profilu)-->
+					<dataRozpoczecia>2019-10-01</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+					<podstawaStatusuStudiowania>
+						<!--Podstawa przyjęcia i kształcenia cudzoziemca-->
+						<podstawa>
+							<status>PSC3</status>
+							<dataOd>2018-10-02</dataOd>
+						</podstawa>
+					</podstawaStatusuStudiowania>
+					<uruchomienieKod>6699</uruchomienieKod>
+					<podstawaZwolnieniaZOplat>
+						<!--Podstawa zwolniania z opłat cudzoziemca-->
+						<podstawa>
+							<podstawaZwolnieniaKod>PZOC1</podstawaZwolnieniaKod>
+							<dataOd>2018-10-02</dataOd>
+						</podstawa>
+					</podstawaZwolnieniaZOplat>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!--1 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>1</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>30</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+					<semestr>
+						<!--2 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>2</semestrNr>
+							<semestrStudenta>2</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>60</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+				</semestry>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!--Obywatel polski na studiach na kierunku, poziomie i profilu w ramach studiów międzydziedzinowych (międzyobszarowych)-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1986</rokUrodzenia>
+				<pesel>86031415149</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<!--Studia studenta (studia na kierunku, poziomie i profilu w ramach studiów międzyobszarowych (miedzydziedzinowych))-->
+					<dataRozpoczecia>2019-10-01</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+					<uruchomienieKod>6711</uruchomienieKod>
+					<kierunekUzupKod>1086</kierunekUzupKod>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!--1 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>1</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>30</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+					<semestr>
+						<!--2 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>2</semestrNr>
+							<semestrStudenta>2</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>60</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+				</semestry>
+				<pomocMat>
+					<!--Pomoc materialna studenta-->
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS08</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>10</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>12</mcDo>
+					</pm>
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS05</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>10</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>10</mcDo>
+					</pm>
+				</pomocMat>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!--Obywatel polski na rekrutacji bez podziału na kierunki-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1988</rokUrodzenia>
+				<pesel>88122225808</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<!--Studia studenta (studia bez przypisania do kierunku na poziomie i profilu tzw. rekrutacja bez podziału na kierunki)-->
+					<formaStudiow>Stacjonarne</formaStudiow>
+					<dataRozpoczecia>2019-10-01</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+					<poziomStudiow>Pierwszego stopnia</poziomStudiow>
+					<jednostkaProwadzacaUid>bzvsPYOprn7OdjI6A8M5SNw</jednostkaProwadzacaUid>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!--1 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>1</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>T</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>0</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+					<semestr>
+						<!--2 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>2</semestrNr>
+							<semestrStudenta>2</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>T</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>0</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+				</semestry>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!--Obywatel polski studiujący pierwszy semestr roku akademickiego 2019/2020 bez przypisania do kierunku i kontynuujący studia z przypisaniem do kierunku, poziomu, profilu-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1993</rokUrodzenia>
+				<pesel>93091649430</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<!--Studia studenta (studia rozpoczęte bez przypisania do kierunku i kontynuowane na kierunku, poziomie, profilu-->
+					<formaStudiow>Stacjonarne</formaStudiow>
+					<dataRozpoczecia>2019-10-01</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+					<uruchomienieKod>6653</uruchomienieKod>
+					<poziomStudiow>Pierwszego stopnia</poziomStudiow>
+					<jednostkaProwadzacaUid>bzvsPYOprn7OdjI6A8M5SNw</jednostkaProwadzacaUid>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!--1 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>1</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>T</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>0</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+					<semestr>
+						<!--2 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>2</semestrNr>
+							<semestrStudenta>2</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>0</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+				</semestry>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!--Obywatel polski studiujący pierwszy semestr roku akademickiego 2019/2020 bez przypisania do kierunku i kontynuujący studia z przypisaniem do kierunku, poziomu, profilu w ramach studiów międzydziedzinowych-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1998</rokUrodzenia>
+				<pesel>98092459914</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<!--Studia studenta (studia rozpoczete bez przypisania do kierunku i kontynuowane na kierunku, poziomie, profilu w ramach studiow miedzyobszarowych (międzydziedzinowych)-->
+					<formaStudiow>Stacjonarne</formaStudiow>
+					<dataRozpoczecia>2019-10-01</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+					<uruchomienieKod>6670</uruchomienieKod>
+					<kierunekUzupKod>1084</kierunekUzupKod>
+					<poziomStudiow>Pierwszego stopnia</poziomStudiow>
+					<jednostkaProwadzacaUid>bzvsPYOprn7OdjI6A8M5SNw</jednostkaProwadzacaUid>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!--1 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>1</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>T</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>0</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+					<semestr>
+						<!--2 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>2</semestrNr>
+							<semestrStudenta>2</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>0</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+				</semestry>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!--Obywatel polski kontynuujący studia rozpoczęte przed 1.10.2019-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>2000</rokUrodzenia>
+				<pesel>00250995334</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<!--Studia studenta (kontynuacja studiów na kierunku, poziomie i profilu rozpoczętych przed 1.10.2019)-->
+					<kierunekId>27524</kierunekId>
+					<dataRozpoczecia>2018-10-03</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+					<uruchomienieKod>6757</uruchomienieKod>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!--3 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>3</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>30</ectsUzyskane>
+							<ectsEfektyUczenia>20</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>20</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+				</semestry>
+				<pomocMat>
+					<!--Pomoc materialna studenta-->
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS08</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>10</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>12</mcDo>
+					</pm>
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS05</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>10</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>10</mcDo>
+					</pm>
+				</pomocMat>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!--Obywatel polski kontynuujący studia międzydziedzinowe (międzyobszarowe) rozpoczęte przed 1.10.2019-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1978</rokUrodzenia>
+				<pesel>78110457249</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<!--Studia studenta (kontynuacja studiów na kierunku, poziomie i profilu rozpoczętych przed 1.10.2019 w ramach studiów międzyobszarowych (międzydziedzinowych) i kontynuowanych w ramach studiów międzydziedzinowych)-->
+					<kierunekId>35889</kierunekId>
+					<kierunekUzupId>34115</kierunekUzupId>
+					<dataRozpoczecia>2018-10-01</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+					<uruchomienieKod>6715</uruchomienieKod>
+					<kierunekUzupKod>1084</kierunekUzupKod>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!--3 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>3</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>30</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+					<semestr>
+						<!--4 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>2</semestrNr>
+							<semestrStudenta>4</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>N</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>60</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+				</semestry>
+			</daneDotyczaceStudiow>
+		</student>
+		<student>
+			<!--Dane studenta-->
+			<!--Obywatel polski kontynuujący studia bez przypisania do kierunku, które zostały rozpoczetę przed 1.10.2019-->
+			<osoba>
+				<!--Dane osobowe studenta (obywatel polski)-->
+				<imie1>Jan</imie1>
+				<imie2>Zbigniew</imie2>
+				<nazwisko>Kowalski</nazwisko>
+				<cudzoziemiec>N</cudzoziemiec>
+				<plec>M</plec>
+				<rokUrodzenia>1979</rokUrodzenia>
+				<pesel>79111415579</pesel>
+				<obywatelstwo>PL</obywatelstwo>
+			</osoba>
+			<daneDotyczaceStudiow>
+				<!--Zbiór informacji o przebiegu studiów studenta-->
+				<studia>
+					<!--Studia studenta (studia rozpoczete przed 1.10.2019 bez przypisania do kierunku i kontynuowane bez przypisania do kierunku-->
+					<kierunekId>23389</kierunekId>
+					<formaStudiow>Stacjonarne</formaStudiow>
+					<dataRozpoczecia>2019-12-03</dataRozpoczecia>
+					<miejsceZamieszkania>miasto</miejsceZamieszkania>
+					<poziomStudiow>Pierwszego stopnia</poziomStudiow>
+					<jednostkaProwadzacaUid>bzvsPYOprn7OdjI6A8M5SNw</jednostkaProwadzacaUid>
+				</studia>
+				<semestry>
+					<!--Semestry studiów-->
+					<semestr>
+						<!--2 semestr studiów-->
+						<daneSemestru>
+							<!--Dane semestru studiow-->
+							<rokAkademicki>2019</rokAkademicki>
+							<semestrNr>1</semestrNr>
+							<semestrStudenta>2</semestrStudenta>
+							<rekrutacjaBezPodzialuNaKierunki>T</rekrutacjaBezPodzialuNaKierunki>
+						</daneSemestru>
+						<ects>
+							<!--Dane o punktach ECTS-->
+							<ectsUzyskane>0</ectsUzyskane>
+							<ectsEfektyUczenia>0</ectsEfektyUczenia>
+							<ectsKsztalcenieZawodNauczyciela>0</ectsKsztalcenieZawodNauczyciela>
+						</ects>
+					</semestr>
+				</semestry>
+				<pomocMat>
+					<!--Pomoc materialna studenta-->
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS08</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>10</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>12</mcDo>
+					</pm>
+					<pm>
+						<!--Typ i okres przyznania stypendium lub innego świadczenia-->
+						<typPm>STS05</typPm>
+						<rokOd>2019</rokOd>
+						<mcOd>10</mcOd>
+						<rokDo>2019</rokDo>
+						<mcDo>10</mcDo>
+					</pm>
+				</pomocMat>
+			</daneDotyczaceStudiow>
+		</student>
+	</studenci>
+</ns0:plikImp>
